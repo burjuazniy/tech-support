@@ -1,0 +1,1 @@
+Project for bachelor graduation thesis
