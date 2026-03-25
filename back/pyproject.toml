@@ -6,7 +6,7 @@ authors = [
     {name = "burjuazniy",email = "127854656+burjuazniy@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.12"
 dependencies = [
     "fastapi (>=0.135.2,<0.136.0)",
     "fastapi[standard] (>=0.135.2,<0.136.0)"
@@ -15,6 +15,9 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "back", from = "src"}]
 
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "<9"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

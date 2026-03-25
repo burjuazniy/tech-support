@@ -53,3 +53,7 @@ yarn-error.log*
 *.swo
 .DS_Store
 Thumbs.db
+
+# Docs Builds
+docs/_build/
+docs/frontend/
